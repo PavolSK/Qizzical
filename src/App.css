@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(90deg, rgba(221,94,137,1) 0%, rgba(247,187,151,1) 100%);
+  font-family: 'Karla', sans-serif;
+  margin: 0;
+  padding: 10px 0;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: fit-content;
+  top: 0px !important;
+}
+
+.game-playground {
+  text-align: center;
+  margin: 0em 0.5em;
+  padding: 0.4em;
+  min-width: 270px;
+  max-width: 1280px;
+  background-color: rgb(246, 240, 240);
+  border-radius: 30px;
+}
+
+/* Typography */
+.goog-te-combo {
+  font-size: 0.9rem;
+}
+
+.game-question {
+  font-size: 1rem;
+  color: #333;
+  margin-block: 0.4em;
+}
+
+.game-answer {
+  border: 1px solid rgba(247,187,151,1);
+  width: 49%;
+  margin-block: 0.1em;
+}
+
+.player-score {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  cursor: pointer;
+}
+
+.btn-game {
+  background-color: rgba(221,94,137,1);
+  color: #fff;
+  font-family: "Inter";
+  font-size: 1.3rem;
+  border-radius: 15px;
+  margin: 0.2em;
+  border: none;
+}
+
+.btn-game:hover,
+.btn-game:focus,
+.btn-game:active {
+  box-shadow: 5px 5px 15px #555;
+  background-color: rgb(213, 62, 112);
+  border: none;
+}
+
+button {
+  font-family: 'Karla', sans-serif;
+}
+
+/* Layout */
+#google_translate_element {
+  text-align: center;
+}
+
+.goog-te-gadget, 
+.goog-te-combo {
+  margin: 4px auto;
+}
+
+.goog-te-banner-frame{
+  visibility: hidden;
+  display:none !important;
+}
+
+#goog-gt-tt, .goog-te-balloon-frame
+{
+  height: 0;
+  display: none !important;
+}
+
+.goog-text-highlight
+{
+  background: none !important;
+  box-shadow: none !important;
+}
+
+.question-wrap {
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 0.5em;
+}
+
+.answers-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.btn-check {
+  margin-top: 0.8em;
+}
+
+/* Media queries */
+
+@media (min-width: 650px) {
+  body {
+    align-items: center;
+  }
+
+  .game-playground {
+    padding: 0.5em;
+  }
+
+  .game-answer {
+    width: 24.5%;
+  }
+
+  .game-question {
+    font-size: 1.1rem;
+    margin: 0 0 0.7em;
+  }
+
+  .question-wrap {
+    padding: 0.5em 0;
+  }
+}
+
+@media (min-width: 800px) {
+  #root .question-wrap {
+    text-align: left;
+  }
+
+  .game-answer {
+    width: auto;
+    margin: 0 0.2em;
+  }
+
+  .answers-wrap {
+    justify-content: left;
+  }
+}
+
+
+

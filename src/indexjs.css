@@ -1,0 +1,61 @@
+
+/* Typhography */
+.index-title {
+    margin: 0;
+    font-size: 3.3rem;
+}
+
+.index-text {
+    font-size: 1.2rem;
+}
+
+.index-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.index--form-label {
+    font-size: 1.2rem;
+}
+
+/* Layout */
+.start-page {
+    padding: 0.5em;
+}
+
+select,
+#google_translate_element select {
+    font-family: 'Karla', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: block;
+    margin: 0 auto 0.5rem;
+    padding: 0.2em;
+    border-radius: 7px;
+}
+
+#google_translate_element select {
+    font-size: 1rem;
+}
+
+.goog-logo-link{
+    color: #333!important;
+}
+
+.goog-te-gadget{
+    color: #333!important;
+}
+
+/* Media queries */ 
+
+@media (min-width: 400px) {
+    .start-page {
+        padding: 0.75em;
+    }
+    }
+
+@media (min-width: 600px) {
+    .start-page {
+        padding: 1em;
+    }
+}
